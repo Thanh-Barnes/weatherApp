@@ -1,0 +1,66 @@
+.jumbotron {
+    background-image: url('https://i.pinimg.com/originals/8b/82/bc/8b82bc812235773060e739897c66d57a.jpg');
+    background-size: cover;
+}
+
+/* .mainBody {
+    background-image: url('https://i.pinimg.com/originals/8b/82/bc/8b82bc812235773060e739897c66d57a.jpg');
+    background-size: cover;
+    opacity: 75%;
+
+} */
+
+.cityInput {
+    text-align: center;
+
+}
+.quoteBox {
+    font-size: 40px;
+    font-style: oblique;
+    text-align: center;
+}
+
+.cardIcon {
+    width: 100%;
+}
+
+.cardTemperature {
+    font-size: 70px;
+}
+
+.celciusSymbol {
+    font-size: 10px;
+}
+
+#boilingTempColor {
+    color: red;
+}
+
+#hotTempColor {
+    color: orangered; 
+}
+
+#warmTempColor {
+    color: rgb(243, 171, 38);
+}
+
+#coolTempColor {
+    color: rgb(0, 162, 255);
+    border-color: rgb(0, 162, 255)
+}
+
+#coldTempColor {
+    color: rgb(35, 35, 241);
+}
+
+#weatherCard {
+    text-align: center;
+}
+
+footer {
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    text-align: center;
+}
+

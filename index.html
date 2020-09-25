@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.1/css/all.css" integrity="sha384-50oBUHEmvpQ+1lW4y57PTFmhCaXp0ML5d60M1M7uH2+nqUivzIebhndOJK28anvf" crossorigin="anonymous">
+    
+    <title>Weather App</title>
+</head>
+<body>
+    <div class="jumbotron jumbotron-fluid text-center bg-info text-dark">
+        <div class="container">
+          <h1 class="display-4">A <em>change</em> in the weather is sufficient to <em>recreate</em> the world and ourselves</h1>
+          <p class="lead">Marcel Proust</p>
+        </div>
+    </div>
+    <div class="mainBody">
+        <div class="container quoteBox">
+        </div>
+        <br>
+        <div class="container cityInput">
+            <div>
+                <h3>How's the weather up there?</h3>
+                <br>
+            </div>
+            <div id="formInput">
+                <form>
+                    <div  class="form-row">
+                        <div class="col-auto">
+                            <input id="cityNameInput" type="text" class="form-control" placeholder="e.g. Sydney" required>
+                            </div>
+                            <button id="submitBtn" type="submit" class="btn btn-primary mb-2">Let's see...</button>
+                        </div>
+                    </div>
+                </form>  
+            </div>
+        </div>
+    </div>
+    <br>
+<!-- card body -->
+    <div id="weatherCard" class="card mb-3 border-0" style="max-width: 540px;">
+    </div>
+
+
+
+
+<!-- JS links -->
+    <script src="cityCardManager.js"></script>
+    <script src="main.js"></script>
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js" integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js" integrity="sha384-B4gt1jrGC7Jh4AgTPSdUtOBvfO8shuf57BaghqFfPlYxofvL8/KUEfYiJOMMV+rV" crossorigin="anonymous"></script>
+        
+</body>
+<footer>Made with ❤ by Thanh B.</footer>
+</html>
